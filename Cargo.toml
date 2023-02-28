@@ -6,5 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-gio = "0.17.0"
-gtk = "^0.17.0"
+gio = { git = "https://github.com/gtk-rs/gtk-rs-core.git", package = "gio" }
+gtk = "0.17.0"
